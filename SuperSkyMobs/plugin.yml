@@ -1,0 +1,19 @@
+name: SuperSkyMobs
+main: supersky.MaxEngine.SuperSkyMobs.SuperSkyMobs
+version: 1.4
+author: MaxEngine
+description: No FullBright!
+api-version: 1.14
+commands:
+  fb:
+    description: Help Commands
+    usage: /<command> [args]
+permissions:
+    fb.mode:
+        default: op
+    fb.light:
+        default: op
+    fb.zombie:
+        default: op
+    fb.limit:
+        default: op
